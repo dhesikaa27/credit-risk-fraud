@@ -15,7 +15,7 @@ with c1:
     a, b = st.columns(2)
     a.metric("ROC-AUC (test)", "0.793")
     b.metric("Bad borrowers caught", "85%")
-    st.page_link("pages/1_Credit_Risk.py", label="Open Credit Risk Predictor", icon="💳")
+    st.page_link("pages/1_Credit_risk.py", label="Open Credit Risk Predictor", icon="💳")
 
 with c2:
     st.subheader("Fraud Detection")
