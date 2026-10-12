@@ -23,12 +23,12 @@ with c2:
     a, b = st.columns(2)
     a.metric("PR-AUC", "0.878")
     b.metric("Frauds caught", "84%")
-    st.page_link("pages/2_Fraud_Checker.py", label="Open Fraud Checker", icon="🚨")
+    st.page_link("pages/2_fraud_checker.py", label="Open Fraud Checker", icon="🚨")
 
 st.divider()
 l1, l2 = st.columns(2)
-l1.page_link("pages/3_Data_Explorer.py", label="Data Explorer", icon="📊")
-l2.page_link("pages/4_Model_Comparison.py", label="Model Comparison", icon="🏆")
+l1.page_link("pages/3_data_explorer.py", label="Data Explorer", icon="📊")
+l2.page_link("pages/4_model_comparison.py", label="Model Comparison", icon="🏆")
 
 with st.expander("⚠️ Limitations and fairness"):
     st.markdown("""
